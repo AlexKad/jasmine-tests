@@ -9,7 +9,7 @@ describe('Calculator', function(){
 					compare: function(actual, min, max){
 						var result = {};
 						result.pass = actual >= min && actual <= max;
-						return result;
+						return result;  
 					}
 				};				
 			}
